@@ -1,0 +1,14 @@
+:root {
+    --primary-white: #fff;
+    --primary-green: #00df9a;
+    --primary-dark: rgba(255,255,255,0);
+}
+
+.skills-wraper {
+    position: relative;
+    /* background: url(bg.jpg) no-repeat; */
+    background: linear-gradient(221deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.927608543417367) 0%, rgba(0,0,0,1) 62%);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
