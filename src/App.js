@@ -8,6 +8,7 @@ import { useCallback } from "react";
 import Media from './components/Media';
 import About from './components/About';
 import Skills from './components/Skills';
+import Slider from './components/Slider';
 
 function App() {
   const particlesInit = useCallback(async (engine) => {
@@ -105,6 +106,7 @@ function App() {
       <Header />
       <About/>
       <Skills/>
+      <Slider/>
     </>
 
   );

@@ -4,13 +4,20 @@
     --primary-dark: rgba(255, 255, 255, 0);
 }
 
+.skills-wraper .container {
+    max-width: 1000px;
+}
+
 .skills-wraper {
     position: relative;
     /* background: url(bg.jpg) no-repeat; */
-    background: linear-gradient(221deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.927608543417367) 0%, rgba(0, 0, 0, 1) 62%);
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: auto;
 }
 
 .skills-info h1 {

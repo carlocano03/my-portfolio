@@ -4,8 +4,10 @@
     --primary-dark: rgba(255,255,255,0);
     --primary-db: #222f3e;
 }
-
-.container {
+.about-wrappe {
+    height: auto;
+}
+.about-wrapper .container {
     max-width: 1000px;
 }
 

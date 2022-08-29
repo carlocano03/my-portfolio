@@ -13,8 +13,10 @@ import BS from '../images/bs.png'
 import TCSS from '../images/tailwind.png'
 import PS from '../images/ps.png'
 
+
 const Skills = () => {
   return (
+    <>
     <div name="skills" className="skills-wraper">
       <div className="container mt-5 skills-info">
         <h1>Skills</h1>
@@ -93,9 +95,10 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        
       </div>
     </div>
+    
+    </>
   )
 }
 
