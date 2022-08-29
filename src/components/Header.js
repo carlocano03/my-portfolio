@@ -1,12 +1,18 @@
-import React from "react"
+import React, { useEffect } from "react"
 import "./css/Header.css"
 import Typed from "react-typed"
 import { BsBoxArrowInRight } from "react-icons/bs"
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 const Header = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div name="home" className="header-wraper">
-      <div className="main-info">
+      <div className="main-info" data-aos="fade-up">
         <div className="container">
           <p>Hi, my name is</p>
           <Typed
@@ -21,7 +27,7 @@ const Header = () => {
             I'm a full-stack developer specializing in building (and occasionally designing) exceptional digital experiences. Currently,
             I'm focused on building responsive full-stack web applications.
           </p>
-          <button className="btn-view" type="button">View Work<BsBoxArrowInRight size={30} className="ms-2"/></button>
+          <button data-aos="flip-down" className="btn-view" type="button">View Work<BsBoxArrowInRight size={30} className="ms-2" /></button>
         </div>
       </div>
     </div>

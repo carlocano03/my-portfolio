@@ -13,13 +13,8 @@
     color: var(--primary-db);
     font-size: 40px;
     font-weight: bold;
-}
-
-.about-info .underline {
-    border-bottom: 4px solid var(--primary-green);
-    width: 7rem;
-    margin-top: -15px;
-    margin-bottom: 10px;
+    text-decoration: underline var(--primary-green);
+    text-underline-offset: 5px;
 }
 
 .about-info p {

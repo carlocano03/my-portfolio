@@ -1,22 +1,27 @@
-import React from "react"
+import React, { useEffect } from "react"
 import "./css/About.css"
 import avatar from '../images/avatar.jpg'
 import arrow from '../images/fast-forward.gif'
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
-    <div name="about" className="container">
-      <div className="about-info mt-3">
+    <div name="about" className="container" data-aos="fade-in">
+      <div className="about-info mt-5 pt-3 pb-5">
         <h1>About</h1>
-        <div className="underline"></div>
         <div className="row g-0">
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="fade-right">
 
             <p>LEARN MORE ABOUT ME</p>
             <img src={avatar} className="img-fluid" alt="..."></img>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="fade-left">
             <div className="more-details">
               <h1>Full Stack Developer</h1>
               <p className="text-secondary">
