@@ -85,7 +85,7 @@ const Skills = () => {
           <div className="col-lg-3 col-4 pb-4 text-center">
             <div className="img-wraper p-3 pb-0">
               <img src={TCSS} alt="TAILWIND Logo"/>
-              <p className="pt-3">Tailwind CSS</p>
+              <p className="pt-3">Tailwind</p>
             </div>
           </div>
           <div className="col-lg-3 col-4 pb-4 text-center">
