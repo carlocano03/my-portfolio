@@ -9,6 +9,7 @@ import Media from './components/Media';
 import About from './components/About';
 import Skills from './components/Skills';
 import Slider from './components/Slider';
+import Footer from './components/Footer';
 
 function App() {
   const particlesInit = useCallback(async (engine) => {
@@ -107,6 +108,7 @@ function App() {
       <About/>
       <Skills/>
       <Slider/>
+      <Footer/>
     </>
 
   );

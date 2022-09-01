@@ -18,7 +18,7 @@ const About = () => {
           <div className="row g-0">
             <div className="col-md-6" data-aos="fade-right">
 
-              <p>LEARN MORE ABOUT ME</p>
+              <p className="learn-more">LEARN MORE ABOUT ME</p>
               <img src={avatar} className="img-fluid" alt="..."></img>
             </div>
 

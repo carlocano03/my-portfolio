@@ -37,7 +37,7 @@
 
 @media(max-width: 768px) {
     .main-info h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .main-info .typed-text {

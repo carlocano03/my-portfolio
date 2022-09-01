@@ -40,3 +40,9 @@
 .more-details .text_underline {
     border-bottom: 2px solid var(--primary-green);
 }
+
+@media(max-width:768px) {
+    .about-info .learn-more {
+        font-size: 28px;
+    }
+}
