@@ -12,36 +12,36 @@ export const dataDigitalBestSeller = [
     {
         id: 1,
         title: "NEQAS Online Registration",
-        price: "1000",
-        category: "TEst",
+        techStack: "HTML / CSS / JQuery / JavaScript / AJAX / Bootstrap / MySQL",
+        category: "NEQAS evaluates the performance of participating laboratories by assessing the integrity of the entire testing from sample receipt to releasing of test results.",
         url: NEQAS
     },
     {
         id: 2,
         title: "Inventory Management System",
-        price: "1000",
-        category: "TEst",
+        techStack: "HTML / CSS / JQuery / JavaScript / AJAX / Bootstrap / HighCharts / MySQL",
+        category: "A detailed, itemized list, report, or record of things in one's possession, especially a periodic survey of all goods and materials in stock.",
         url: INV
     },
     {
         id: 3,
         title: "LevelUp Online Tutorials",
-        price: "1000",
-        category: "TEst",
+        techStack: "HTML / CSS / JQuery / JavaScript / AJAX / Bootstrap / HighCharts / MySQL",
+        category: "Official website of LevelUp Online Tutorials and with scheduling of program offered. Including the payment history, monitoring of ongoing classes and etc.",
         url: LEVELUP
     },
     {
         id: 4,
         title: "Excelsis Pharma Website",
-        price: "1000",
-        category: "TEst",
+        techStack: "HTML / CSS / Bootstrap / JavaScript",
+        category: "Official website of Excelsis Pharma Inc. Including the chat support directed to the administrator of the website and viewing all the needed information of this company.",
         url: EP
     },
     {
         id: 5,
         title: "Loan Management System",
-        price: "1000",
-        category: "TEst",
+        techStack: "VB.Net / Metro UI / Bunifu / ReportViewer / MySQL",
+        category: "Automate every step of loan servicing to cut costs. Digital statements to replace high cost paper statements and push account alerts and payment reminders.",
         url: ORFC
     },
 
@@ -93,9 +93,13 @@ const Slider = () => {
                                 <img src={item.url} alt={item.title} />
                                 <h1 className="p-2">{item.title}</h1>
                             </div>
-                            <div className="card-bottom">
-                                <h3>{item.category}</h3>
-                                <p>{item.price}</p>
+                            <div className="card-bottom p-1">
+                                <p>{item.category}</p>
+                                <p>
+                                    <small>Tech Stacks Used</small><br/>
+                                    <i>{item.techStack}</i>
+                                </p>
+                                
                             </div>
                         </div>
                     ))}
