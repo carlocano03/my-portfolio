@@ -88,7 +88,7 @@ const Slider = () => {
                 <h1 className="text-center">Some of my Projects</h1>
                 <Slide {...settings}>
                     {projectDeveloped.map(item => (
-                        <div className="card">
+                        <div className="card" key={item.id}>
                             <div className="card-top">
                                 <img src={item.url} alt={item.title} />
                                 <h1 className="p-2">{item.title}</h1>
