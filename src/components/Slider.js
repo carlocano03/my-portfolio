@@ -8,7 +8,7 @@ import LEVELUP from '../images/projects/level_up.PNG'
 import EP from '../images/projects/EP.PNG'
 import ORFC from '../images/projects/ORFC.png'
 
-export const dataDigitalBestSeller = [
+export const projectDeveloped = [
     {
         id: 1,
         title: "NEQAS Online Registration",
@@ -87,7 +87,7 @@ const Slider = () => {
             <div className="container slider-info">
                 <h1 className="text-center">Some of my Projects</h1>
                 <Slide {...settings}>
-                    {dataDigitalBestSeller.map(item => (
+                    {projectDeveloped.map(item => (
                         <div className="card">
                             <div className="card-top">
                                 <img src={item.url} alt={item.title} />
